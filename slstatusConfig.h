@@ -67,5 +67,6 @@ static const char unknown_str[] = "ohnoes!";
 static const struct arg args[] = {
 	/* function format          argument */
 	{ datetime, "  %s ",           "time: %T  date: %F" },
+	{ cat, "  %s ",           "/home/user/transfer/volume/volume" },
 	{ battery_perc, "  BAT: %s  ",         "BAT1"},
 };
